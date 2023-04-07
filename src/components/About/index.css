@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.about-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.small-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.large-image-container {
+  display: none;
+}
+
+.about-image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .small-image-container {
+    display: none;
+  }
+  .large-image-container {
+    display: flex;
+  }
+}
